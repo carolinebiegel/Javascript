@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TP Gestion</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="gestionQuery.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <label for="Savoir">Savoir : </label>
+        <input required type="text" name="Savoir" id="Savoir">
+    </div>
+
+    <div>
+        <label for="Auteur">Auteur :</label>
+        <input type="text" name="Auteur" id="Auteur">
+    </div>
+
+    <div>
+        <label for="Date">Date : </label>
+        <input required type="date" name="Date" id="Date">
+    </div>
+
+
+    <div>
+        <button onclick="boutonAjouter()" id="Ajouter">Ajouter</button>
+    </div>
+
+    <ol id="maListe">
+    </ol>
+
+
+</body>
+
+</html>
